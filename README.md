@@ -1,2 +1,2 @@
 # tdd-clean-architecture
-controle de doses de bebidas por peso
+controle de bebidas por peso
