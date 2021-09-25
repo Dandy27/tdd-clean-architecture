@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:tdd_clean_architecture/core/errors/erros.dart';
 import 'package:tdd_clean_architecture/features/domain/entities/weight_drink.dart';
 import 'package:tdd_clean_architecture/features/domain/repositories/weight_drink_repository.dart';
 import 'package:tdd_clean_architecture/features/domain/usecase/get_weight_drink.dart';
