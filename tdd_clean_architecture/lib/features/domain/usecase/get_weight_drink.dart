@@ -7,7 +7,10 @@ class GetWeightDrink {
   final WeightDrinkRepository repository;
 
   GetWeightDrink(this.repository);
-  Future<Either<WeightDrinkException, WeightDrink>> call() {
+  Future<Either<WeightDrinkException, WeightDrink>> call(
+  ) {
     return repository.getWeightDrink();
   }
+
+
 }

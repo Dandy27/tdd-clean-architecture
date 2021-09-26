@@ -13,8 +13,6 @@ class WeightDrink {
 
   calculate() {
     var total = (pesoGrfAberta - tara) * quantDoses / (pesoBruto - tara);
-   
-
     return total.toStringAsPrecision(2);
   }
 }
